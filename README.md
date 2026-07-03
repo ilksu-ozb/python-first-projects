@@ -16,4 +16,15 @@ and the winner is decided by comparing the score tables.
 
  ### 2. Number Guessing Game:
  Another simple game where the user tries to guess the random number the computer chose, after determining the range and the number of trials to have.
- 
+
+
+ ### 3. Password Generator:
+ Generates secure passwords depending on the user's choices (length of the password, whether there should be special characters or numbers).
+
+* **Key Features:**
+  * Cryptographically Secure: Uses the `secrets` module for randomness.
+  * Interactive CLI: Prompts users for length (8-64 characters), numbers, and special characters.
+  * Validation: Guarantees that the generated password strictly contains at least one character from each requested pool (numbers/symbols).
+  * Input Handling: Safe from crashes due to invalid character inputs or sudden user interruptions (`Ctrl+C`).
+    
+
