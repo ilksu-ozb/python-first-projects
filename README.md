@@ -26,5 +26,16 @@ and the winner is decided by comparing the score tables.
   * Interactive CLI: Prompts users for length (8-64 characters), numbers, and special characters.
   * Validation: Guarantees that the generated password strictly contains at least one character from each requested pool (numbers/symbols).
   * Input Handling: Safe from crashes due to invalid character inputs or sudden user interruptions (`Ctrl+C`).
-    
+
+ ### 3. Alarm Clock:
+ A terminal-based alarm clock application. It leverages Python's built-in `datetime` and `time` modules to provide real-time tracking with minimal system resource usage.
+
+* **Key Features:**
+  * Input Validation: Safely parses user input in `hh:mm` format, validating integer conversion and checking standard time boundaries (`0-23` hours, `0-59` minutes).
+  * Resource Efficient: Utilizes `time.sleep` interval polling to prevent unnecessary CPU usage while waiting for the alarm trigger.
+  * Audible & Visual Alerts: Triggers a terminal audio prompt and visual notice once the target time is reached.
+  * Modular Architecture: Structured around clean functional programming principles with dedicated functions for user input processing (`set_timer()`), time monitoring, and main execution flow (`main()`).
+  
+
+
 
