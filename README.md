@@ -35,6 +35,17 @@ and the winner is decided by comparing the score tables.
   * Resource Efficient: Utilizes `time.sleep` interval polling to prevent unnecessary CPU usage while waiting for the alarm trigger.
   * Audible & Visual Alerts: Triggers a terminal audio prompt and visual notice once the target time is reached.
   * Modular Architecture: Structured around clean functional programming principles with dedicated functions for user input processing (`set_timer()`), time monitoring, and main execution flow (`main()`).
+ 
+ ### 4. To-Do-List:
+ A modular Python To-Do List application built with a Command Line Interface (CLI) and data persistence using JSON.
+
+ * **Key Features:**
+   * Task Management: Add, view, update, and delete tasks.
+   * Data Persistence: Tasks are automatically saved to `tasks.json` and reloaded upon app startup.
+   * Error Handling: Input validation using `try-except` blocks.
+   * Modular Architecture: Separate modules for logic (`main.py`) and data persistence (`storage.py`).
+   
+   
   
 
 
